@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BB64B132BB3FBDE0071F2A5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB64B122BB3FBDE0071F2A5 /* Product.swift */; };
 		2BDFFA1D2BB383020056BDAD /* SweaterShopJJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDFFA1C2BB383020056BDAD /* SweaterShopJJApp.swift */; };
 		2BDFFA1F2BB383020056BDAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDFFA1E2BB383020056BDAD /* ContentView.swift */; };
 		2BDFFA212BB383030056BDAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDFFA202BB383030056BDAD /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BB64B122BB3FBDE0071F2A5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		2BDFFA192BB383020056BDAD /* SweaterShopJJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweaterShopJJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDFFA1C2BB383020056BDAD /* SweaterShopJJApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweaterShopJJApp.swift; sourceTree = "<group>"; };
 		2BDFFA1E2BB383020056BDAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BB64B102BB3FB080071F2A5 /* Sweaters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sweaters;
+			sourceTree = "<group>";
+		};
+		2BB64B112BB3FBB40071F2A5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2BB64B122BB3FBDE0071F2A5 /* Product.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		2BDFFA102BB383020056BDAD = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +70,9 @@
 			children = (
 				2BDFFA1C2BB383020056BDAD /* SweaterShopJJApp.swift */,
 				2BDFFA1E2BB383020056BDAD /* ContentView.swift */,
+				2BB64B112BB3FBB40071F2A5 /* models */,
 				2BDFFA202BB383030056BDAD /* Assets.xcassets */,
+				2BB64B102BB3FB080071F2A5 /* Sweaters */,
 				2BDFFA222BB383030056BDAD /* Preview Content */,
 			);
 			path = SweaterShopJJ;
@@ -139,6 +158,7 @@
 			files = (
 				2BDFFA1F2BB383020056BDAD /* ContentView.swift in Sources */,
 				2BDFFA1D2BB383020056BDAD /* SweaterShopJJApp.swift in Sources */,
+				2BB64B132BB3FBDE0071F2A5 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
