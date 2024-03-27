@@ -21,7 +21,20 @@ struct ContentView: View {
                     }
                 }
                 .padding()
+            }
+            .navigationTitle(Text("Sweater Shop"))
+            .toolbar {
+                NavigationLink {
+                    CartView()
+                        .environmentObject(cartManager)
+                } label: {
+                    CartButton(numberOfProducts: cartManager.products.count)
+                }
+            }
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
+            
 }
 //djfnvdivndfivdivb
 #Preview {
