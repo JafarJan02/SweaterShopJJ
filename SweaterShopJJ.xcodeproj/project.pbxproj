@@ -59,6 +59,14 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		2BB64B182BB3FE650071F2A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BDFFA1E2BB383020056BDAD /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2BDFFA102BB383020056BDAD = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				2BDFFA1C2BB383020056BDAD /* SweaterShopJJApp.swift */,
-				2BDFFA1E2BB383020056BDAD /* ContentView.swift */,
+				2BB64B182BB3FE650071F2A5 /* Views */,
 				2BB64B142BB3FD450071F2A5 /* Components */,
 				2BB64B112BB3FBB40071F2A5 /* models */,
 				2BDFFA202BB383030056BDAD /* Assets.xcassets */,
