@@ -26,3 +26,13 @@ class CartManager: ObservableObject {
         products = products.filter { $0.id != product.id }
         total -= product.price
     }
+
+    // Call the startPayment function from the PaymentHandler. In the completion handler, set the paymentSuccess variable
+    func pay() {
+        paymentHandler.startPayment(products: products, total: total) { success in
+            self.paymentSuccess = success
+            self.products = []
+            self.total = 0
+        }
+    }
+}
